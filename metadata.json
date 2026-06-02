@@ -1,0 +1,6 @@
+{
+  "name": "The United Scout",
+  "description": "The elite tactical intelligence and scout manager for Manchester United, analyzing squad weaknesses and suggesting smart transfer targets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

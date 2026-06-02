@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;450;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Red Devils brand color palette additions */
+  --color-united-red: #DA291C;
+  --color-united-crimson: #8B1A12;
+  --color-united-dark: #141414;
+  --color-united-darker: #0A0A0A;
+  --color-united-card: #1A1A1A;
+  --color-united-gold: #c29b38;
+}
+
+/* Custom interactive scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(218, 41, 28, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(218, 41, 28, 0.6);
+}
+
+/* Base styling overrides */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-united-darker);
+  color: #F5F5F5;
+  overflow-x: hidden;
+}
