@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/scout",
-      "destination": "/api/scout.js"
+      "destination": "/api/scout:1"
     }
   ]
 }
